@@ -20,7 +20,7 @@ permalink: /services/
             <p class="section-desc">From development to deployment, from installation to maintenance — we've got every aspect of your IT needs covered.</p>
         </div>
 
-        {% for svc in services %}
+        {% for svc in services.services %}
         <div class="why-grid" style="margin-bottom:80px" data-animate="fade-up">
             {% if loop.index0 % 2 == 0 %}
             <div class="why-image"><img src="{{ svc.image }}" alt="{{ svc.name }}" loading="lazy"></div>

@@ -81,7 +81,7 @@ permalink: /contact/
                         <label for="cService">Service Required</label>
                         <select id="cService" name="service">
                             <option value="" disabled selected>Select a service</option>
-                            {% for svc in services %}
+                            {% for svc in services.services %}
                             <option>{{ svc.name }}</option>
                             {% endfor %}
                         </select>

@@ -89,7 +89,7 @@ permalink: /
             <p class="section-desc">Comprehensive IT solutions tailored to elevate your business with cutting-edge technology and expert support.</p>
         </div>
         <div class="services-grid">
-            {% for svc in services %}
+            {% for svc in services.services %}
             <div class="service-card" data-animate="fade-up" data-delay="{{ loop.index0 * 50 }}">
                 <div class="service-card-img">
                     <img src="{{ svc.image }}" alt="{{ svc.name }}" loading="lazy">
@@ -301,7 +301,7 @@ permalink: /
             <button class="filter-btn" data-filter="network">Networking</button>
         </div>
         <div class="projects-grid">
-            {% for proj in projects %}
+            {% for proj in projects.projects %}
             <div class="project-card" data-category="{{ proj.category }}" data-animate="fade-up">
                 <div class="project-img">
                     <img src="{{ proj.image }}" alt="{{ proj.name }}" loading="lazy">
@@ -326,9 +326,9 @@ permalink: /
             <h2 class="section-title">What Our <span class="gradient-text">Clients Say</span></h2>
             <p class="section-desc">Trusted by businesses across India and worldwide for reliable IT solutions.</p>
         </div>
-        {% if testimonials | length > 0 %}
+        {% if testimonials.testimonials | length > 0 %}
         <div class="testimonials-grid">
-            {% for review in testimonials %}
+            {% for review in testimonials.testimonials %}
             <div class="testimonial-card" data-animate="fade-up" data-delay="{{ loop.index0 * 100 }}">
                 <div class="testimonial-stars">
                     {% for i in range(0, review.stars) %}<i class="fas fa-star"></i>{% endfor %}
@@ -398,7 +398,7 @@ permalink: /
                         <label for="service">Service Required</label>
                         <select id="service" name="service">
                             <option value="" disabled selected>Select a service</option>
-                            {% for svc in services %}
+                            {% for svc in services.services %}
                             <option>{{ svc.name }}</option>
                             {% endfor %}
                         </select>

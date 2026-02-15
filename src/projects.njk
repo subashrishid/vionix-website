@@ -31,7 +31,7 @@ permalink: /projects/
         </div>
 
         <div class="projects-grid">
-            {% for proj in projects %}
+            {% for proj in projects.projects %}
             <div class="project-card" data-category="{{ proj.category }}" data-animate="fade-up">
                 <div class="project-img">
                     <img src="{{ proj.image }}" alt="{{ proj.name }}" loading="lazy">

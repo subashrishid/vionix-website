@@ -161,6 +161,23 @@
     .page-banner {
         padding: 120px 0 60px
     }
+
+    .timeline::before {
+        left: 20px
+    }
+
+    .timeline-item {
+        width: 100%;
+        left: 0 !important;
+        text-align: left !important;
+        padding-left: 50px;
+        padding-right: 16px
+    }
+
+    .timeline-item .timeline-dot {
+        left: 11px !important;
+        right: auto !important
+    }
 }
 
 /* --- Mobile Portrait (≤576px) --- */
