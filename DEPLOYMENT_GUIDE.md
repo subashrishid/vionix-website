@@ -1,4 +1,4 @@
-# Vionix Technologies Website — Deployment Guide
+# Vertaxes Technologies Website — Deployment Guide
 
 ## 🚀 Deploy to Netlify (Free Cloud Hosting)
 
@@ -7,12 +7,12 @@
 1. **Go to** [https://www.netlify.com](https://www.netlify.com)
 2. **Sign up** for a free account (use Google or email)
 3. After login, click **"Add new site"** → **"Deploy manually"**
-4. **Drag and drop** the entire `vionix-website` folder into the upload area
+4. **Drag and drop** the entire `Vertaxes-website` folder into the upload area
 5. ✅ Your website is live! You'll get a URL like `https://random-name.netlify.app`
 
 #### Rename Your Site URL:
 - Go to **Site settings** → **Change site name**
-- Change to: `vionix` → Your URL becomes `https://vionix.netlify.app`
+- Change to: `Vertaxes` → Your URL becomes `https://Vertaxes.netlify.app`
 
 ---
 
@@ -20,31 +20,31 @@
 
 1. **Create a GitHub account** at [github.com](https://github.com)
 2. **Install Git** from [git-scm.com](https://git-scm.com)
-3. **Create a new repository** called `vionix-website`
+3. **Create a new repository** called `Vertaxes-website`
 4. **Open terminal** in your project folder and run:
 
 ```bash
-cd "c:\Users\subas\This PC\vionix-website"
+cd "c:\Users\subas\This PC\Vertaxes-website"
 git init
 git add .
-git commit -m "Initial commit - Vionix Technologies website"
+git commit -m "Initial commit - Vertaxes Technologies website"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/vionix-website.git
+git remote add origin https://github.com/YOUR_USERNAME/Vertaxes-website.git
 git push -u origin main
 ```
 
 5. Go to **Netlify** → **"Add new site"** → **"Import an existing project"**
-6. **Connect GitHub** → Select `vionix-website` repository
+6. **Connect GitHub** → Select `Vertaxes-website` repository
 7. Click **Deploy site**
 8. ✅ Now every push to GitHub auto-deploys your website!
 
 ---
 
-## 🌐 Connect Custom Domain (vionix.com)
+## 🌐 Connect Custom Domain (Vertaxes.com)
 
 1. In Netlify, go to **Site settings** → **Domain management**
 2. Click **"Add custom domain"**
-3. Enter: `vionix.com`
+3. Enter: `Vertaxes.com`
 4. Netlify will ask you to add DNS records:
    - Go to your domain registrar (GoDaddy, Namecheap, etc.)
    - Add a **CNAME record**: `www` → `your-site.netlify.app`

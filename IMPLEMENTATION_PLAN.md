@@ -1,10 +1,10 @@
-# 🚀 Vionix Technologies — Website Implementation Plan
+# 🚀 Vertaxes Technologies — Website Implementation Plan
 
 ## 📋 Project Overview
 
 | Item | Details |
 |------|---------|
-| **Company** | Vionix Technologies |
+| **Company** | Vertaxes Technologies |
 | **Tagline** | End-to-End IT Solutions & Services |
 | **Type** | Multi-page Corporate IT Website |
 | **Tech Stack** | HTML5 + CSS3 + Vanilla JavaScript |
@@ -46,7 +46,7 @@
 ## 📁 File Structure
 
 ```
-vionix-website/
+Vertaxes-website/
 ├── index.html              ← Home page (12 sections)
 ├── about.html              ← About page
 ├── services.html           ← Detailed services page
@@ -190,7 +190,7 @@ Key responsive changes:
 #### `DEPLOYMENT_GUIDE.md`
 - Step-by-step Netlify deployment instructions
 - GitHub integration guide
-- Custom domain (vionix.com) setup
+- Custom domain (Vertaxes.com) setup
 - SSL certificate activation
 - Form notification configuration
 
